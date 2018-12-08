@@ -1,0 +1,304 @@
+* {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 11px;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  display: inline-block;
+  height: 3px;
+  width: 50px;
+  border: 0;
+}
+hr.thin{
+  height: 1px;
+}
+.button {
+  display: inline-block;
+  border: 0;
+  border-radius: 300px;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+.bg-pink {
+  background-color: #E77C8F;
+  color: #F9F6EF;
+}
+.bg-yellow {
+  background-color: #FAB023;
+  color:#F9F6EF;
+}
+.bg-blue {
+  background-color: #6688EE;
+  color:#F9F6EF;
+}
+.bg-mint {
+  background-color: #A3D1CF;
+  color: #333333;
+}
+.bg-orange {
+  background-color: #f05f40;
+  color: #F9F6EF;
+}
+.bg-white {
+  background-color: #F9F6EF;
+  color: #333333;
+}
+
+.fc-pink {
+  color: #E77C8F;
+}
+.fc-yellow {
+  color: #FAB023;
+}
+.fc-blue {
+  color: #6688EE;
+}
+.fc-mint {
+  color: #A3D1CF;
+}
+.fc-orange {
+  color: #f05f40;
+}
+.fc-white {
+  color: #F9F6EF;
+}
+.fc-gray {
+  color: #555555;
+}
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.pd-tb-40 {
+  padding: 40px 0;
+}
+
+.pd-tb-20 {
+  padding: 20px 0;
+}
+
+.pd-tb-10 {
+  padding: 10px 0;
+}
+
+.pd-tb-15 {
+  padding: 15px 0;
+}
+
+.pd-tb-5 {
+  padding: 5px 0;
+}
+
+.mg-tb-20 {
+  margin: 20px 0;
+}
+.mg-tb-10 {
+  margin: 10px 0;
+}
+.mg-tb-5 {
+  margin: 5px 0;
+}
+.fs-sm {
+  font-size: 1.4rem;
+}
+.fs-nm {
+  font-size: 1.8rem;
+}
+.fs-lg {
+  font-size: 2.2rem;
+}
+.fw-100 {
+  font-weight: 100;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.wd-full {
+  width: 100%;
+}
+.wd-1200-center {
+  max-width:1200px;
+  margin: 0 auto;
+}
+.v-center {
+  position: absolute;
+  top: 50%;
+  height: 240px;
+  width: 100%;
+  margin-top: -110px;
+}
+:target:before {
+  content:"";
+  display:block;
+  height:50px;
+  margin-top:-50px;
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 50px;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+}
+.header a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.header a:hover {
+  color: rgba(255, 255, 255, 1.0);
+}
+.nav-wrap {
+  padding: 0 10px;
+}
+.socc-logo {
+  height: 100%;
+  float: left;
+}
+.socc-logo a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 50px;
+}
+.socc-logo img {
+  vertical-align: middle;
+  height: 20px;
+}
+.main-navigation {
+  float: right;
+}
+.main-navigation .nav-group{
+  list-style: none;
+  line-height: 50px;
+  font-size: 1.1rem;
+}
+.main-navigation .nav-group li {
+  margin: 0 5px;
+  display: inline-block;
+}
+.jumbotron {
+  padding-top:50px;
+  z-index: 10;
+  height: 100vh;
+  color: #F9F6EF;
+  text-align: center;
+  background-image: url(../img/SOCC_header.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.catchphrase {
+  min-height:12rem;
+}
+.news,.people,.projects,.studies,.calendar,.links,.recruit,footer {
+  text-align: center;
+}
+.news .date {
+  font-weight: 600;
+}
+.news .title {
+  font-weight: 100;
+}
+.news li {
+  margin: 1rem 0;
+}
+.people ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.people li {
+  width: 23rem;
+  margin: 1.8rem 0.3rem;
+  list-style: none;
+}
+.people li span {
+  display: block;
+}
+.people .name {
+  font-weight: lighter;
+}
+.people li img {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 300px;
+}
+
+.cal-frame {
+  border: 0;
+  width: 100%;
+  height: 60rem;
+  display: block;
+  overflow: hidden;
+}
+
+.projects ul li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.studies ul li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.links ul li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.tags {
+  display: inline-block;
+  margin: 0.5rem 0;
+  color: #E77C8F;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.mascot {
+   width: 13em;
+   margin: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size:9px;
+  }
+}
+
+@media screen and (max-width:380px) {
+
+  .main-navigation .nav-group{
+    margin-top:1rem;
+    text-align: right;
+    list-style: none;
+    line-height: 3rem;
+    font-size: 1.1rem;
+  }
+  .main-navigation .nav-group li {
+    margin: 0;
+    display: block;
+  }
+}
