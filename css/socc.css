@@ -56,7 +56,6 @@ h2 {
   background-color: #F9F6EF;
   color: #333333;
 }
-
 .fc-pink {
   color: #E77C8F;
 }
@@ -81,32 +80,24 @@ h2 {
 .text-left {
   text-align: left;
 }
-
 .text-center {
   text-align: center;
 }
-
-
 .pd-tb-40 {
   padding: 40px 0;
 }
-
 .pd-tb-20 {
   padding: 20px 0;
 }
-
 .pd-tb-10 {
   padding: 10px 0;
 }
-
 .pd-tb-15 {
   padding: 15px 0;
 }
-
 .pd-tb-5 {
   padding: 5px 0;
 }
-
 .mg-tb-20 {
   margin: 20px 0;
 }
@@ -155,18 +146,11 @@ h2 {
   margin-top:-50px;
 }
 .header {
-  background-color: rgba(0, 0, 0, 0.25);
+  text-shadow: -0.08em 0 0.08em #333, 0 0.08em 0.08em #333, 0.08em 0 0.08em #333, 0 -0.08em 0.08em #333;
   height: 50px;
   position: fixed;
   z-index: 10000;
   width: 100%;
-}
-.header a {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.header a:hover {
-  color: rgba(255, 255, 255, 1.0);
 }
 .nav-wrap {
   padding: 0 10px;
@@ -176,6 +160,7 @@ h2 {
   float: left;
 }
 .socc-logo a {
+  color: rgba(255, 255, 255, 1.0);
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 50px;
@@ -186,6 +171,33 @@ h2 {
 }
 .main-navigation {
   float: right;
+}
+.main-navigation a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.main-navigation .active {
+  color: rgba(255, 255, 255, 1.0);
+}
+.main-navigation ul li:nth-child(1) a.active {
+  border-bottom: 2px solid #F9F6EF
+}
+.main-navigation ul li:nth-child(2) a.active {
+  border-bottom: 2px solid #f05f40
+}
+.main-navigation ul li:nth-child(3) a.active {
+  border-bottom: 2px solid #A3D1CF
+}
+.main-navigation ul li:nth-child(4) a.active {
+  border-bottom: 2px solid #FAB023
+}
+.main-navigation ul li:nth-child(5) a.active {
+  border-bottom: 2px solid #F9F6EF
+}
+.main-navigation ul li:nth-child(6) a.active {
+  border-bottom: 2px solid #6688EE
+}
+.main-navigation ul li:nth-child(7) a.active {
+  border-bottom: 2px solid #F9F6EF
 }
 .main-navigation .nav-group{
   list-style: none;
@@ -246,7 +258,6 @@ h2 {
   height: 18rem;
   border-radius: 300px;
 }
-
 .cal-frame {
   border: 0;
   width: 100%;
@@ -254,22 +265,18 @@ h2 {
   display: block;
   overflow: hidden;
 }
-
 .projects ul li {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
 .studies ul li {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
 .links ul li {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
 .tags {
   display: inline-block;
   margin: 0.5rem 0;
@@ -289,7 +296,6 @@ h2 {
 }
 
 @media screen and (max-width:380px) {
-
   .main-navigation .nav-group{
     margin-top:1rem;
     text-align: right;
