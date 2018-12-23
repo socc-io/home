@@ -130,6 +130,12 @@ h2 {
 .fw-600 {
   font-weight: 600;
 }
+.inline-block {
+  display: inline-block !important;
+}
+.italic {
+  font-style: italic;
+}
 .wd-full {
   width: 100%;
 }
@@ -195,13 +201,13 @@ h2 {
 .main-navigation ul li:nth-child(4) a.active {
   border-bottom: 2px solid #FAB023
 }
-.main-navigation ul li:nth-child(5) a.active {
+/* .main-navigation ul li:nth-child(5) a.active {
   border-bottom: 2px solid #F9F6EF
-}
-.main-navigation ul li:nth-child(6) a.active {
+} */
+.main-navigation ul li:nth-child(5) a.active {
   border-bottom: 2px solid #6688EE
 }
-.main-navigation ul li:nth-child(7) a.active {
+.main-navigation ul li:nth-child(6) a.active {
   border-bottom: 2px solid #F9F6EF
 }
 .main-navigation .nav-group{
@@ -245,29 +251,21 @@ h2 {
 .people a {
   color: #222222;
 }
-
 .people ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
-
-.dot_active {
-  height: 10px;
-  width: 10px;
-  background-color: #22ff00;
-  border-radius: 50%;
-  border-color: #222222;
-  display: inline-block;
-}
-
 .dot {
+  margin-right: 5px;
   height: 10px;
   width: 10px;
   background-color: #bbbbbb;
   border-radius: 50%;
-  border-color: #222222;
   display: inline-block;
+}
+.dot.active {
+  background-color: #22ff00;
 }
 
 .people li {
