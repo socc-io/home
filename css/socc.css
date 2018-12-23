@@ -56,6 +56,11 @@ h2 {
   background-color: #F9F6EF;
   color: #333333;
 }
+.bg-black {
+  background-color: #222222;
+  color: #F9F6EF;
+}
+
 .fc-pink {
   color: #E77C8F;
 }
@@ -214,7 +219,7 @@ h2 {
   height: 100vh;
   color: #F9F6EF;
   text-align: center;
-  background-image: url(../img/SOCC_header.jpg);
+  background-image: url(../images/together.jpg);
   background-attachment: fixed;
   background-position: center;
   -webkit-background-size: cover;
@@ -237,11 +242,34 @@ h2 {
 .news li {
   margin: 1rem 0;
 }
+.people a {
+  color: #222222;
+}
+
 .people ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
+
+.dot_active {
+  height: 10px;
+  width: 10px;
+  background-color: #22ff00;
+  border-radius: 50%;
+  border-color: #222222;
+  display: inline-block;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbbbbb;
+  border-radius: 50%;
+  border-color: #222222;
+  display: inline-block;
+}
+
 .people li {
   width: 23rem;
   margin: 1.8rem 0.3rem;

@@ -1,296 +1,359 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>개발을 사랑하는 사람들 모여랏!</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
-
-    <!-- favicon -->
-    <link rel="shortcut icon" href="socc_favicon.ico" type="image/x-icon" />
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>개발을 사랑하는 사람들 모여라!</title>
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:100,300,600,700,800" type="text/css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+  <!-- css core -->
+  <link rel="stylesheet" href="css/socc.css" type="text/css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="socc_favicon.ico" type="image/x-icon" />
+  <script src="js/jquery.js"></script>
 </head>
-
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <img class="navbar-brand page-scroll" style="margin:0;" src="img/socc_character.png"> 
-                <a class="navbar-brand page-scroll" href="#page-top">SOCC</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#recruit">커미터 모집</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">쏙 활동 소개</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">지원하기</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>개발하고 놀 사람,</h1>
-                <h1>여기여기 모여라!</h1>
-                <hr>
-                <p>Study Opensource Coding Club<br>함께 연구하고, 오픈소스를 개발하는 동아리입니다.</p>
-                <a href="#recruit" class="btn btn-primary btn-xl page-scroll">이런 사람과 함께하고 싶습니다</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="recruit">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">저희 쏙이 찾는 분은,</h2>
-                    <hr class="light">
-                    <p class="text-faded" style="margin:0;">
-                    개발을 좋아라 하는 사람
-                    <br>함께 배우고 나누고 싶은 사람
-                    <br>열정이 넘치는 사람
-                    </p>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <img src="img/socc_dev_icon.png" style="height:180px; margin-bottom:12px;" />
-                    <p style="font-size:20px; margin:0;">개발을 좋아하는 개발자</p>
-                </div>
-            </div>
-        </div>
+<body>
+  <header class="header">
+    <div class="nav-wrap">
+      <div class="socc-logo">
+        <a href="#home">
+          <img src="img/socc_character.png" alt="Go to home" /> <span>SOCC</span>
+        </a>
+      </div>
+      <nav class="main-navigation">
+        <ul class="nav-group">
+          <li>
+            <a href="#news">새 소식</a>
+          </li>
+          <li>
+            <a href="#people">사람들</a>
+          </li>
+          <li>
+            <a href="#projects">프로젝트</a>
+          </li>
+          <li>
+            <a href="#studies">스터디</a>
+          </li>
+          <li>
+            <a href="#calendar">일정</a>
+          </li>
+          <li>
+            <a href="#recruit">지원하기</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section id="home" class="jumbotron">
+      <div class="v-center">
+        <h1 class="catchphrase" id="typedtext">
+          _
+        </h1>
+        <hr class="bg-orange">
+        <p class="mg-tb-10 fs-sm">
+          Study Opensource Coding Club<br>
+          함께 연구하고, 오픈소스를 개발하는 동아리입니다.
+        </p>
+        <a href="#recruit" class="mg-tb-5 bg-orange button">저희와 함께하고 싶다면?</a>
+      </div>
     </section>
 
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">쏙에서 활동하시면,</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 text-center">
-                    <div class="service-box">
-                        <img class="wow bounceIn" src="img/S.png" style="height:60px;" />
-                        <h3>Study</h3>
-                        <p class="text-muted">함께 무엇이든 공부할 수 있습니다
-                        </p>
-                        <br>
-                        <!-- <a href="http://beaver.hp100.net:3000" target="_blank">어떤 공부를 하는지 보러가기>></a> -->
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 text-center">
-                    <div class="service-box">
-                        <img class="wow bounceIn" src="img/O.png" style="height:60px;" data-wow-delay=".1s" />
-                        <h3>Opensource</h3>
-                        <p class="text-muted">함께 오픈소스를 만들 수 있습니다
-                        </p>
-                        <br>
-                        <a href="https://github.com/socc-io" target="_blank">쏙 깃허브 구경가기>></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="news" class="news">
+      <div class="bg-orange pd-tb-40">
+        <h2>News</h2>
+        <hr class="bg-white">
+        <!-- <p class="mg-tb-10 fs-sm">
+          New information about SOCC<br>
+          우리의 새 소식
+        </p> -->
+        <ul class="fs-nm mg-tb-20">
+          <li>
+            <span class="title">FOO BAR BAZ IPSUM LOREM</span>
+            <span class="date">
+             - Sep 2018
+            </span>
+          </li>
+          <li>
+            <span class="title">king god general Yeongjin Kim is reborn as a man.</span>
+            <span class="date">
+              - Dec 2018
+            </span>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/socc-io/algostudy" class="portfolio-box" target="_blank">
-                        <img src="img/algostudy.jpg" class="img-responsive" alt="" style="width:100%;">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    알고리즘을 함께 푸는
-                                </div>
-                                <div class="project-name">
-                                    알고스터디
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/smilu97/dovahkiin" class="portfolio-box" target="_blank">
-                        <img src="/img/bmt.png" class="img-responsive" alt="" style="width:100%;">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    다중 RL 에이전트 GYM 라이브러리
-                                </div>
-                                <div class="project-name">
-                                    DOVAHKIIN
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/socc-io/hawki" class="portfolio-box" target="_blank">
-                        <img src="img/hawki.png" class="img-responsive" alt="" style="width:100%;">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    기계학습 실내위치 측정 시스템
-                                </div>
-                                <div class="project-name">
-                                    호크아이(Hawki)
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/becxer/pytrain" class="portfolio-box" target="_blank">
-                        <img src="img/pytrain.png" class="img-responsive" alt="" style="width:100%;">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    파이썬 머신러닝 라이브러리
-                                </div>
-                                <div class="project-name">
-                                    파이트레인(Pytrain)
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://goo.gl/SH5h9l" class="portfolio-box" target="_blank">
-                        <img src="/img/mt.jpg" class="img-responsive" alt="" style="width:100%;">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    커미터들과 함께 즐거운(개발하는) MT
-                                </div>
-                                <div class="project-name">
-                                    쏙 MT
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="/" class="portfolio-box" target="_blank">
-                        <img src="img/papers.jpeg" class="img-responsive" alt="" style="width:100%;">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    AI 연구 및 논문 스터디
-                                </div>
-                                <div class="project-name">
-                                    모닝 AI & 딥러닝 페이퍼 리뷰
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+    <section id="people" class="people">
+      <div class="pd-tb-40 wd-1200-center">
+        <h2>People</h2>
+        <hr class="bg-orange">
+        <p class="mg-tb-10 fs-sm">
+          SOCC의 커미터들을 소개합니다.<br>
+          <a class="dot_active"></a> : Active committer <a class="dot"></a> : Inactive committer
+        </p>
+
+        <ul>
+          <li>
+            <a href="https://becxer.github.io"><img src="images/seohyun_back.jpg" alt="Seohyun Back"/> </a>
+            <span class="fs-lg mg-tb-10"><a class="dot_active"></a> <b>Seohyun Back</b></span>
+            <span class="fs-sm mg-tb-5"><i>Organizer</i></span>
+            <span class="fs-sm mg-tb-10">Deep Learning and Natural Language Processing</span>
+
+            <span>
+              <a href="https://github.com/becxer"><i class="fs-nm fa fa-github-square"></i></a>
+              <a href="https://www.linkedin.com/in/seohyun-back-017a0383/"><i class="fs-nm fa fa-linkedin-square"></i></a>
+            </span>
+          </li>
+
+          <li>
+            <img src="img/socc_character.png" alt="foo" />
+            <span class="fs-lg mg-tb-10">이름이름</span>
+            <span class="fs-sm mg-tb-5">직업직업</span>
+            <span class="fs-sm mg-tb-10">관심사 관심사</span>
+            <span>
+              <a href="#"><i class="fs-nm fa fa-github-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-linkedin-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-facebook-square"></i></a>
+            </span>
+          </li>
+
+          <li>
+            <img src="img/socc_character.png" alt="foo" />
+            <span class="fs-lg mg-tb-10">이름이름</span>
+            <span class="fs-sm mg-tb-5">직업직업</span>
+            <span class="fs-sm mg-tb-10">관심사 관심사</span>
+            <span>
+              <a href="#"><i class="fs-nm fa fa-github-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-linkedin-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-facebook-square"></i></a>
+            </span>
+          </li>
+
+          <li>
+            <img src="img/socc_character.png" alt="foo" />
+            <span class="fs-lg mg-tb-10">이름이름</span>
+            <span class="fs-sm mg-tb-5">직업직업</span>
+            <span class="fs-sm mg-tb-10">관심사 관심사</span>
+            <span>
+              <a href="#"><i class="fs-nm fa fa-github-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-linkedin-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-facebook-square"></i></a>
+            </span>
+          </li>
+
+          <li>
+            <img src="img/socc_character.png" alt="foo" />
+            <span class="fs-lg mg-tb-10">이름이름</span>
+            <span class="fs-sm mg-tb-5">직업직업</span>
+            <span class="fs-sm mg-tb-10">관심사 관심사</span>
+            <span>
+              <a href="#"><i class="fs-nm fa fa-github-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-linkedin-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-facebook-square"></i></a>
+            </span>
+          </li>
+
+          <li>
+            <img src="img/socc_character.png" alt="foo" />
+            <span class="fs-lg mg-tb-10">이름이름</span>
+            <span class="fs-sm mg-tb-5">직업직업</span>
+            <span class="fs-sm mg-tb-10">관심사 관심사</span>
+            <span>
+              <a href="#"><i class="fs-nm fa fa-github-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-linkedin-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-facebook-square"></i></a>
+            </span>
+          </li>
+
+          <li>
+            <img src="img/socc_character.png" alt="foo" />
+            <span class="fs-lg mg-tb-10">이름이름</span>
+            <span class="fs-sm mg-tb-5">직업직업</span>
+            <span class="fs-sm mg-tb-10">관심사 관심사</span>
+            <span>
+              <a href="#"><i class="fs-nm fa fa-github-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-linkedin-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-facebook-square"></i></a>
+            </span>
+          </li>
+
+          <li>
+            <img src="img/socc_character.png" alt="foo" />
+            <span class="fs-lg mg-tb-10">이름이름</span>
+            <span class="fs-sm mg-tb-5">직업직업</span>
+            <span class="fs-sm mg-tb-10">관심사 관심사</span>
+            <span>
+              <a href="#"><i class="fs-nm fa fa-github-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-linkedin-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-facebook-square"></i></a>
+            </span>
+          </li>
+
+          <li>
+            <img src="img/socc_character.png" alt="foo" />
+            <span class="fs-lg mg-tb-10">이름이름</span>
+            <span class="fs-sm mg-tb-5">직업직업</span>
+            <span class="fs-sm mg-tb-10">관심사 관심사</span>
+            <span>
+              <a href="#"><i class="fs-nm fa fa-github-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-linkedin-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-facebook-square"></i></a>
+            </span>
+          </li>
+
+          <li>
+            <img src="img/socc_character.png" alt="foo" />
+            <span class="fs-lg mg-tb-10">이름이름</span>
+            <span class="fs-sm mg-tb-5">직업직업</span>
+            <span class="fs-sm mg-tb-10">관심사 관심사</span>
+            <span>
+              <a href="#"><i class="fs-nm fa fa-github-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-linkedin-square"></i></a>
+              <a href="#"><i class="fs-nm fa fa-facebook-square"></i></a>
+            </span>
+          </li>
+
+        </ul>
+      </div>
     </section>
 
-    <aside id="contact" class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>저희와 함께하고 싶다면,</h2>
-                <img src="img/socc_character.png" style="width:130px;margin:30px">
-                <a href="https://goo.gl/forms/pcAJfPEaZWS1LNGo2" class="btn btn-default btn-xl wow tada" target="_blank">쏙 커미터로 지원하기</a>
-            </div>
-        </div>
-    </aside>
+    <section id="projects" class="projects">
+      <div class="bg-white pd-tb-40">
+        <h2>Projects</h2>
+        <hr class="bg-mint">
+        <p class="mg-tb-10 fs-sm">
+          Look around projects we've created.<br>
+          진행중인, 진행했던 프로젝트들 입니다.
+        </p>
+        <ul class="text-left wd-1200-center">
+          <li>
+            <h3 class="fs-nm mg-tb-5">Keeping-Pablo</h3>
+            <h4 class="fs-sm fc-gray fw-300">강화학습을 이용한 게임 인공지능</h4>
+            <span class="tags">#Python #bar #baz</span>
+            <hr class="bg-mint wd-full thin mg-tb-20">
+          </li>
 
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">언제든지 연락주세요</h2>
-                    <hr class="primary">
-                    <p>신입모집, 스터디, 개발활동 어떤 것이든 쏙 에게 궁금한 점은 언제든지 물어보세요</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-facebook-official fa-3x wow bounceIn"></i>
-                    <p style="font-family:'Helvetica Neue';"><a href="https://www.facebook.com/Soccpage" target="_blank">https://www.facebook.com/Soccpage</a></p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p style="font-family:'Helvetica Neue';"><a href="mailto:socc.maintainer@gmail.com" target="_blank">socc.maintainer@gmail.com</a></p>
-                </div>
-            </div>
-        </div>
+          <li>
+            <h3 class="fs-nm mg-tb-5">AI Hackathon 2018</h3>
+            <h4 class="fs-sm fc-gray fw-300">"한계를 넘어 상상에 도전하자!" 네이버 AI 해커톤 2018</h4>
+            <span class="tags">#foo #foo #foo</span>
+            <hr class="bg-mint wd-full thin mg-tb-20">
+          </li>
+
+          <li>
+            <h3 class="fs-nm mg-tb-5">Keeping-Pablo</h3>
+            <h4 class="fs-sm fc-gray fw-300">강화학습을 이용한 게임 인공지능</h4>
+            <span class="tags">#foo #bar #baz</span>
+            <hr class="bg-mint wd-full thin mg-tb-20">
+          </li>
+
+        </ul>
+      </div>
     </section>
 
-    <footer class="bg-primary">
-        <div class="container text-center">
-            <div class="row">
-                <p style="margin:10px 0; font-family:'Helvetica Neue';">Copyright © SOCC Recruit Page</p>
-            </div>
-        </div>
-    </footer>
+    <section id="studies" class="studies">
+      <div class=" pd-tb-40">
+        <h2>Studies</h2>
+        <hr class="bg-yellow">
+        <p class="mg-tb-10 fs-sm">
+          Awesome studies in SOCC<br>
+          최신 기술을 공부하고, 함께 연구합니다.
+        </p>
+        <ul class="text-left wd-1200-center">
+          <li>
+            <h3 class="fs-nm mg-tb-5">YamechineLearning</h3>
+            <h4 class="fs-sm fc-gray fw-300">야매로 배우는 머신러닝</h4>
+            <span class="tags">#foo #bar #baz</span>
+            <hr class="bg-white wd-full thin mg-tb-20">
+          </li>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+          <li>
+            <h3 class="fs-nm mg-tb-5">Keeping-Pablo</h3>
+            <h4 class="fs-sm fc-gray fw-300">강화학습을 이용한 게임 인공지능</h4>
+            <span class="tags">#foo #bar #baz</span>
+            <hr class="bg-white wd-full thin mg-tb-20">
+          </li>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+          <li>
+            <h3 class="fs-nm mg-tb-5">Keeping-Pablo</h3>
+            <h4 class="fs-sm fc-gray fw-300">강화학습을 이용한 게임 인공지능</h4>
+            <span class="tags">#foo #bar #baz</span>
+            <hr class="bg-white wd-full thin mg-tb-20">
+          </li>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
+        </ul>
+      </div>
+    </section>
+<!--
+    <section id="links" class="links">
+      <div class="bg-blue pd-tb-40">
+        <h2>Links</h2>
+        <hr class="bg-white">
+        <p class="mg-tb-10 fs-sm">
+          say anything<br>
+          할말 한글
+        </p>
+        <ul class="text-left wd-1200-center">
+          <li>
+            <h3 class="fs-nm mg-tb-5">Facebook page</h3>
+            <h4 class="fs-sm fw-300">https://www.facebook.com/Soccpage</h4>
+            <span class="tags">#foo #bar #baz</span>
+            <hr class="bg-white wd-full thin mg-tb-20">
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+          </li>
+          <li>
+            <h3 class="fs-nm mg-tb-5">github organizations</h3>
+            <h4 class="fs-sm fw-300">https://github.com/socc-io</h4>
+            <span class="tags">#foo #bar #baz</span>
+            <hr class="bg-white wd-full thin mg-tb-20">
+          </li>
+          <li>
+            <h3 class="fs-nm mg-tb-5">Slack (Member only)</h3>
+            <h4 class="fs-sm fw-300">https://socc.slack.com</h4>
+            <span class="tags">#foo #bar #baz</span>
+            <hr class="bg-white wd-full thin mg-tb-20">
+          </li>
+        </ul>
+      </div>
+    </section>
+-->
+    <section id="calendar" class="calendar">
+      <div class="pd-tb-40">
+        <h2>Calendar</h2>
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23000000&amp;src=6s723sbvf9pm57hujk4fh16uu4%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=Asia%2FSeoul" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+      </div>
+    </section>
 
+    <section id="recruit" class="recruit">
+      <div class="bg-black pd-tb-40">
+        <h2>Recruit</h2>
+        <hr class="bg-white">
+        <p class="mg-tb-10 fs-sm">
+          SOCC always need more heroes.<br>
+          저희와 함께하고 싶다면?
+        </p>
+        <img src="img/socc_character.png" alt="SOCC Mascot" class="mascot">
+        <br>
+        <a href="https://goo.gl/forms/pcAJfPEaZWS1LNGo2" class="bg-white button mg-tb-20">SOCC 커미터로 지원하기!</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white pd-tb-20 fs-sm">
+    <div class="wd-1200-center">
+      <p>
+        Copyright 2018. SOCC. All rights reserved.
+        <br>
+        <a class="fc-gray" href="mailto:socc.maintainer@gmail.com" target="_blank"><i class="fa fa-envelope"></i>socc.maintainer@gmail.com</a>
+      </p>
+    </div>
+  </footer>
+  <script src="js/socc.js"></script>
 </body>
 
 </html>
