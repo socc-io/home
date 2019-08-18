@@ -33,6 +33,7 @@ function typewriter() {
 typewriter();
 
 $(document).ready(function () {
+    // hide not activate club member
     // set up text to print, each item in array is new line
     $('a[href*=#]').bind('click', function (e) {
         e.preventDefault(); // prevent hard jump, the default behavior
@@ -45,6 +46,10 @@ $(document).ready(function () {
         });
         return false;
     });
+    // toggle non_active members
+    $("#member_toggle_button").click(function() {
+        $("#non_activate_member").toggle();
+    })
 });
 
 $(window).scroll(function () {
